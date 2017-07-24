@@ -1,6 +1,6 @@
 #! /bin/bash
 
-web='http://www.values.com/inspirational-quotes'
+web='https://www.values.com/inspirational-quotes'
 page=`shuf -i 1-200 -n 1`
 quote=`curl -s $web?page=$page | grep "<h6>" | tr -s ">" | cut -f3 -d ">" | sed 's/<.*//' | shuf -n 1`
 
