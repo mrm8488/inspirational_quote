@@ -1,5 +1,5 @@
 # Inspirational daily Quotes
-A bash script to receive an inspirational quote in your terminal from the web https://www.values.com/inspirational-quotes
+A bash script to receive an inspirational quote in your terminal from the web https://www.passiton.com/inspirational-quotes
 
 ![](https://media.giphy.com/media/ZyGf0ZcLwAMnK/giphy.gif)
 
