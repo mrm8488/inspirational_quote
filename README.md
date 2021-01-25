@@ -11,8 +11,9 @@ chmod +x inspirationalQuote.sh
 To have the quote displayed in `cowsay` you can run:
 ```
 ./inspirationalQuote.sh -c ## for elephant by default
-./inspirationalQuote.sh -c vader ## to run as another specific cowsay
+./inspirationalQuote.sh -c vader ## to run as another specific cowfile
 ./inspirationalQuote.sh -r ## to pull a random cowsay
+./inspirationalQuote.sh -d ## pull a demotivational quote. can be combined with random and cowsay with or without a cowfile
 ```
 ## Ideas
 
