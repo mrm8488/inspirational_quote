@@ -1,7 +1,9 @@
 #! /bin/bash
-curlcmd='curl --proxy http://10.20.30.40:8080'
+curlcmd='curl --proxy http://10.164.254.20:8080'
 # target web
 web='https://www.passiton.com/inspirational-quotes'
+demotivate='https://despair.com/collections/demotivators'
+## curl --proxy http://10.164.254.20:8080 https://despair.com/collections/demotivators | grep "<p>" | grep -v "Sign up for" | awk '{$1=$1};1' | sed 's/<p>//' | sed 's/<\/p>//' | sort -R | head -1
 
 # random (1-50) number for pagination
 if [[ "$OSTYPE" =~ "darwin" ]]; then
