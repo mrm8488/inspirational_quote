@@ -1,9 +1,9 @@
 #! /bin/bash
 
 #is proxy required?
-#proxyrequired=yes
+#proxyrequired=yes ## uncomment or set to no to disable proxy
 
-curlproxy='http://10.164.254.20:8080'
+curlproxy='http://10.20.30.40:8080'
 if [[ "${proxyrequired}" == "yes" ]]; then
 	curlcmd="curl --proxy ${curlproxy}"
 else
